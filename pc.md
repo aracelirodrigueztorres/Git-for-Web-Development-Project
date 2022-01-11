@@ -21,11 +21,17 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+It is an Open Source Distributed Version Control System. while GitHub is a for- profit company that provides cloud-base git hosting service. Making that a form of distinguish in both sources.
 2. Why do we create a branch? 
+To independent the line of development. 
 3. What is the purpose of a pull request? 
+To notify of updates pushed to a branch. 
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+Will use the git checkout command.
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+Git fetch commits from a target branch that is not included in the current branch. Git merge takes independent lines of development made by a git branch, integrading into one single branch. Lastly, git pull is a command that incorporates any updates from repository into current branch.
 6. What is a merge conflict? How do you resolve a merge conflict? 
+A merge conflict happens when competing changes are made to the same line or file. It is resolved by making any necessary changes to the file. Next would be using the git add a command, followed by creating a new commit with git commit.
 
 
 
